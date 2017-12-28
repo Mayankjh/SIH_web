@@ -190,7 +190,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     color: #1cebe1;
 }
 .banner1{
-	background: url(../images/2.jpg) no-repeat;
+	background: url(../images/1.jpg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
@@ -199,7 +199,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -o-background-size: cover;
 }
 .banner2{
-	background: url(../images/4.jpg) no-repeat;
+	background: url(../images/2.jpeg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
@@ -208,7 +208,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -o-background-size: cover;
 }
 .banner3{
-	background: url(../images/5.jpg) no-repeat;
+	background: url(../images/4.jpeg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
@@ -570,6 +570,14 @@ a.more:hover{
 /*--offers--*/
 .w3-offers {
   background: url(../images/offer-bg.jpg) no-repeat center;
+  width: 100%;
+  min-height: 250px;
+  display: block;
+  background-size: cover;
+    background-attachment: fixed;
+}
+.w3-offers1{
+  background: url(../images/5.jpeg) no-repeat center;
   width: 100%;
   min-height: 250px;
   display: block;
