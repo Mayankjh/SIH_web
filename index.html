@@ -16,6 +16,7 @@
 <!-- Custom Theme files -->
 <!--theme-style-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
 <!--//theme-style-->
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -537,15 +538,51 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
     });
 </script>
-  <!-- //Categories -->
 
 
 <!--phone-->
   <div class="phone" id="mobileappagileits">
     <div class="container">
       <div class="col-md-6">
-        <img src="images/ph1.png" class="img-responsive" alt=""/>
-      </div>
+        <div class="col-md-5 slid">
+          <!--- banner Slider starts Here --->
+            <script src="js/responsiveslides.min.js"></script>
+           <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+              $("#slider").responsiveSlides({
+                auto: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+              });
+            });
+            </script>
+
+          <div  id="top" class="callbacks_container">
+            <ul class="rslides" id="slider4">
+              <li>
+                <div class="mobile-device">
+                  <img src="images/mobile.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <div class="mobile-device">
+                  <img src="images/mobile1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <div class="mobile-device">
+                  <img src="images/mobile1.png" alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      <!-- //container -->
+    </div>
+
       <div class="col-md-6 phone-text">
         <h4>Online Digital And Secured Bus Passes mobile app on your smartphone!</h4>
                 <p class="subtitle">Simple and Fast Payments</p>
@@ -651,7 +688,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/responsiveslides.min.js"></script>
    <script>
     $(function () {
-      $("#slider").responsiveSlides({
+      $("#slider4").responsiveSlides({
         auto: true,
         speed: 500,
         namespace: "callbacks",
