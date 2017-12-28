@@ -106,11 +106,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div id="parentVerticalTab">
           <div class="agileits-tab_nav">
           <ul class="resp-tabs-list hor_1">
-            <li><i class="icon fa fa-mobile" aria-hidden="true"></i>New Pass</li>
-            <li><i class="icon fa fa-television" aria-hidden="true"></i>Renew Pass</li>
+            <li><i class="icon fa fa-ticket" aria-hidden="true"></i>New Pass</li>
+            <li><i class="icon fa fa-refresh" aria-hidden="true"></i>Renew Pass</li>
             <li><i class="icon fa fa-credit-card" aria-hidden="true"></i>Duplicate Pass</li>
-            <li><i class="icon fa fa-lightbulb-o" aria-hidden="true"></i>Check Pass Status</li>
-            <li><i class="icon fa fa-phone" aria-hidden="true"></i>Check Pass Validity</li>
+            <li><i class="icon fa fa-id-card-o" aria-hidden="true"></i>Check Pass Status</li>
+            <li><i class="icon fa fa-id-card" aria-hidden="true"></i>Check Pass Validity</li>
             <!-- <li><i class="icon fa fa-connectdevelop" aria-hidden="true"></i>Broad Band</li>
             <li><i class="icon fa fa-flask" aria-hidden="true"></i>Gas</li>
             <li><i class="icon fa fa-tint" aria-hidden="true"></i>Water</li>
@@ -253,28 +253,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                   <div class="mobile-right ">
                       <h4>Enter Your Pass Regestration Number</h4>
                       <div class="mobile-rchge">
-                          <input type="text" placeholder="Regestration " name="full_name" required="required"  />
+                          <input type="text" placeholder="Regestration Number" name="full_name" required="required"  />
                       </div>
                       <div class="clearfix"></div>
                   </div>
               </li>
 
               <li>
-                <h4>Enter your D.O.B</h4>
-                <input type="text" name="birthdate" value="10/24/1984" />
-
-<script type="text/javascript">
-$(function() {
-  $('input[name="birthdate"]').daterangepicker({
-      singleDatePicker: true,
-      showDropdowns: true
-  },
-  function(start, end, label) {
-      var years = moment().diff(start, 'years');
-      alert("You are " + years + " years old.");
-  });
-});
-</script>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker1" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker1" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
               </li>
 
               <li>
@@ -301,28 +302,29 @@ $(function() {
                   <div class="mobile-right ">
                       <h4>Enter Your Pass Regestration Number</h4>
                       <div class="mobile-rchge">
-                          <input type="text" placeholder="Regestration " name="full_name" required="required"  />
+                          <input type="text" placeholder="Regestration Number" name="full_name" required="required"  />
                       </div>
                       <div class="clearfix"></div>
                   </div>
               </li>
 
               <li>
-                <h4>Enter your D.O.B</h4>
-                <input type="text" name="birthdate" value="10/24/1984" />
-
-<script type="text/javascript">
-$(function() {
-  $('input[name="birthdate"]').daterangepicker({
-      singleDatePicker: true,
-      showDropdowns: true
-  },
-  function(start, end, label) {
-      var years = moment().diff(start, 'years');
-      alert("You are " + years + " years old.");
-  });
-});
-</script>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker2" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker2" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
               </li>
 
               <li>
@@ -343,7 +345,7 @@ $(function() {
 
                         <!-- tab4 -->
                         <div>
-                            <i class="icon fa fa-lightbulb-o inner-icon" aria-hidden="true"></i>
+                            <i class="icon fa fa-id-card-o inner-icon" aria-hidden="true"></i>
                     <div id="tab2" class="tab-grid">
                           <div class="login-form">
             <form action="pay.html" method="post" id="signup">
@@ -352,28 +354,29 @@ $(function() {
                   <div class="mobile-right ">
                       <h4>Enter Your Pass Regestration Number</h4>
                       <div class="mobile-rchge">
-                          <input type="text" placeholder="Regestration " name="full_name" required="required"  />
+                          <input type="text" placeholder="Regestration Number " name="full_name" required="required"  />
                       </div>
                       <div class="clearfix"></div>
                   </div>
               </li>
 
               <li>
-                <h4>Enter your D.O.B</h4>
-                <input type="text" name="birthdate" value="10/24/1984" />
-
-<script type="text/javascript">
-$(function() {
-  $('input[name="birthdate"]').daterangepicker({
-      singleDatePicker: true,
-      showDropdowns: true
-  },
-  function(start, end, label) {
-      var years = moment().diff(start, 'years');
-      alert("You are " + years + " years old.");
-  });
-});
-</script>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker3" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker3" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
               </li>
 
               <li>
@@ -394,7 +397,7 @@ $(function() {
                         <!-- tab5 -->
             <div>
 
-              <i class="icon fa fa-phone inner-icon" aria-hidden="true"></i>
+              <i class="icon fa fa-id-card inner-icon" aria-hidden="true"></i>
                     <div id="tab2" class="tab-grid">
                           <div class="login-form">
             <form action="pay.html" method="post" id="signup">
@@ -410,23 +413,23 @@ $(function() {
               </li>
 
               <li>
-                <h4>Enter your D.O.B</h4>
-                <input type="text" name="birthdate" value="10/24/1984" />
-
-<script type="text/javascript">
-$(function() {
-  $('input[name="birthdate"]').daterangepicker({
-      singleDatePicker: true,
-      showDropdowns: true
-  },
-  function(start, end, label) {
-      var years = moment().diff(start, 'years');
-      alert("You are " + years + " years old.");
-  });
-});
-</script>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker4" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker4" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
               </li>
-
               <li>
                 <div class="g-recaptcha" data-sitekey="6Lcpkj4UAAAAAMzjr41iUJzDgC6yIRo03_bMYJQS"></div>
               </li>
@@ -555,135 +558,72 @@ $(function() {
 <!--//offers-->
 
 <!--partners-->
+<br><br>
+<div class="alert alert-warning" role="alert" style="font-size: 30px; font-weight:bolder; color:#ff4444;"><center>PASS DETAILS</center></div>
   <div class="w3layouts-partners">
-    <h3>We are accepted at</h3>
-      <div class="container">
-        <ul>
-          <li><a href="#"><img class="img-responsive" src="images/lg.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg1.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg2.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg3.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg4.png" alt=""></a></li>
-        </ul>
-        <ul>
-          <li><a href="#"><img class="img-responsive" src="images/lg5.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg6.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg7.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg8.png" alt=""></a></li>
-          <li><a href="#"><img class="img-responsive" src="images/lg9.png" alt=""></a></li>
-        </ul>
+
+    <div class="row">
+  <div class="col-md-3" id="pass_detail">
+    <div class="card">
+      <div class="card-block">
+        <h3 class="card-title">Student Pass</h3><br />
+        <p class="card-text">For girls students.With Fee of Cost + Service charges.<br />Document Required:
+ID Card issued by College Principal/School.<br /><br />Issue For Period:1 Year(Upto 30th June)<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+    <br />    <a href="#" class="btn btn-primary">Know more...</a><br /><br />
       </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-3" id="pass_detail">
+    <div class="card">
+      <div class="card-block">
+        <h3 class="card-title">DTC Employee Pass</h3>
+        <p class="card-text">For UTC Employee & his family.With Fee of Cost + Service charges.<br /><br />Document Required:
+Departmental ID Card of UTC Employee.<br /><br />Issue For Period:1 Month<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+        <a href="#" class="btn btn-primary">Know more...</a><br /><br />
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-3" id="pass_detail">
+    <div class="card">
+      <div class="card-block">
+        <h3 class="card-title">Monthly Pass</h3><br />
+        <p class="card-text">For Everyone With 50% Concession + Fee of Cost + Service charges.<br /><br />Document Required:
+Any Photo ID Card.<br /><br />Issue For Period:1 Month<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+      <br />  <a href="#" class="btn btn-primary">Know more...</a><br /><br />
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3" id="pass_detail">
+    <div class="card">
+      <div class="card-block">
+        <h3 class="card-title">Government Pass</h3><br />
+        <p class="card-text">for MLA,MP,EX MLA,Freedom fighter of Delhi-NCR. With Fee of Cost + Service charges.<br /><br />Document Required:
+Any Photo ID Card.<br /><br />Issue For Period:1 Month<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+        <br /><a href="#" class="btn btn-primary">Know more...</a><br /><br />
+      </div>
+    </div>
+  </div>
+</div>
     </div>
 <!--//partners-->
 
-<!-- subscribe -->
-  <div class="w3-subscribe agileits-w3layouts">
-    <div class="container">
-      <div class="col-md-6 social-icons w3-agile-icons">
-        <h4>Join Us</h4>
-        <ul>
-          <li><a href="#" class="fa fa-facebook sicon facebook"> </a></li>
-          <li><a href="#" class="fa fa-twitter sicon twitter"> </a></li>
-          <li><a href="#" class="fa fa-google-plus sicon googleplus"> </a></li>
-          <li><a href="#" class="fa fa-dribbble sicon dribbble"> </a></li>
-          <li><a href="#" class="fa fa-rss sicon rss"> </a></li>
-        </ul>
-      </div>
-      <div class="col-md-6 w3-agile-subscribe-right">
-        <h3 class="w3ls-title">Subscribe to Our <br><span>Newsletter</span></h3>
-        <form action="#" method="post">
-          <input type="email" name="email" placeholder="Enter your Email..." required="">
-          <input type="submit" value="Subscribe">
-          <div class="clearfix"> </div>
-        </form>
-      </div>
-      <div class="clearfix"> </div>
-    </div>
-  </div>
-<!-- //subscribe -->
+
 
 <!--footer-->
 <footer>
-  <div class="container-fluid">
-    <div class="w3-agile-footer-top-at">
-      <div class="col-md-2 agileits-amet-sed">
-        <h4>Company</h4>
-        <ul class="w3ls-nav-bottom">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="sitemap.html">Sitemap</a></li>
-          <li><a href="terms.html">Terms & Conditions</a></li>
-          <li><a href="faq.html">Faq</a></li>
-          <li><a href="#mobileappagileits" class="scroll">Mobile</a></li>
-          <li><a href="feedback.html">Feedback</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="shortcodes.html">Shortcodes</a></li>
-          <li><a href="icons.html">Icons Page</a></li>
 
-        </ul>
-      </div>
-      <div class="col-md-3 agileits-amet-sed ">
-        <h4>Mobile Recharges</h4>
-          <ul class="w3ls-nav-bottom">
-            <li><a href="#mobilew3layouts" class="scroll">Airtel</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Aircel</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Vodafone</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">BSNL</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Tata Docomo</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Reliance GSM</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Reliance CDMA</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Telenor</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">MTS</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Jio</a></li>
-          </ul>
-      </div>
-      <div class="col-md-3 agileits-amet-sed ">
-        <h4>DATACARD RECHARGES</h4>
-           <ul class="w3ls-nav-bottom">
-            <li><a href="#mobilew3layouts" class="scroll">Tata Photon</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">MTS MBlaze</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">MTS MBrowse</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Airtel</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Aircel</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">BSNL</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">MTNL Delhi</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Vodafone</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Idea</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">MTNL Mumbai</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Tata Photon Whiz</a></li>
-          </ul>
-      </div>
-      <div class="col-md-2 agileits-amet-sed">
-        <h4>DTH Recharges</h4>
-        <ul class="w3ls-nav-bottom">
-            <li><a href="#mobilew3layouts" class="scroll"> Airtel Digital TV Recharges</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Dish TV Recharges</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Tata Sky Recharges</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Reliance Digital TV Recharges</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Sun Direct Recharges</a></li>
-            <li><a href="#mobilew3layouts" class="scroll">Videocon D2H Recharges</a></li>
-          </ul>
-      </div>
-            <div class="col-md-2 agileits-amet-sed ">
-        <h4>Payment Options</h4>
-           <ul class="w3ls-nav-bottom">
-            <li>Credit Cards</li>
-            <li>Debit Cards</li>
-            <li>Any Visa Debit Card (VBV)</li>
-            <li>Direct Bank Debits</li>
-            <li>Cash Cards</li>
-          </ul>
-      </div>
-    <div class="clearfix"> </div>
-    </div>
-    </div>
   <div class="w3l-footer-bottom">
     <div class="container-fluid">
       <div class="col-md-4 w3-footer-logo">
-        <h2><a href="index.html">ONLINE RECHARGE</a></h2>
+        <h2><a href="index.html">DTC</a></h2>
       </div>
-      <div class="col-md-8 agileits-footer-class">
-        <p >© 2017 Online Recharge. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+      <div class="col-md-3 agileits-footer-class">
+        <p >©Copyright 2018 DTC. All Rights Reserved.</p>
       </div>
     <div class="clearfix"> </div>
     </div>
